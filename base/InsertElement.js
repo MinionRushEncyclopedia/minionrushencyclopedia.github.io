@@ -3,18 +3,18 @@
 			
 			var HeaderContent =
 			'<span> <img class=hamburger_button id=open_button onclick=openMenu()> </span> \
-			<a href=https://minionrushencyclopedia.github.io/home/> <img class=logo src="../minionrushencyclopedia.github.io/Media/LOGOS/LOGO.png"> </a> \
+			<a href=https://minionrushencyclopedia.github.io/home/> <img class=logo src="../base/Media/LOGOS/LOGO.png"> </a> \
 			<span><img class="hamburger_button" id="blank_open_button" style="cursor: default; user-drag: none; -webkit-user-drag: none; user-select: none; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none;"> </span>';
 			
 			header.innerHTML = HeaderContent;
 			
             t=header.querySelector("#open_button")
 			t.style.float="left";
-			t.src='../minionrushencyclopedia.github.io/Media/ICONS/HAMBURGER_MENU_BUTTON.png';
+			t.src='../base/Media/ICONS/HAMBURGER_MENU_BUTTON.png';
 			
 			s=header.querySelector("#blank_open_button")
 			s.style.float="right";
-			s.src='../minionrushencyclopedia.github.io/Media/ICONS/HAMBURGER_MENU_EMPTY.png';
+			s.src='../base/Media/ICONS/HAMBURGER_MENU_EMPTY.png';
 		}
 		
 		function CreateTabLinks() {
@@ -27,7 +27,7 @@
 		
 		function CreateHamburgerMenu() {
 			Menu=document.getElementById('hamburger_menu');
-			Menu.innerHTML="<div> <img class='exit_button' src='../minionrushencyclopedia.github.io/Media/ICONS/EXIT_BUTTON.png' onclick='closeMenu()'> </div> \
+			Menu.innerHTML="<div> <img class='exit_button' src='../base/Media/ICONS/EXIT_BUTTON.png' onclick='closeMenu()'> </div> \
 			<a class='hamburger_menu_button' href = 'https://minionrushencyclopedia.github.io/home/'> Home </a> \
 			<a class='hamburger_menu_button' href = 'https://minionrushencyclopedia.github.io/about-us/'> About Us </a> \
 			<a class='hamburger_menu_button' href = 'https://minionrushencyclopedia.github.io/table-of-contents/'> Table of Contents </a> \
