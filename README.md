@@ -1,1 +1,0 @@
-# minionrushencyclopedia.github.io
