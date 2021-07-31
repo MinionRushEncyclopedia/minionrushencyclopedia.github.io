@@ -17,23 +17,45 @@
 	text-shadow: 0px 0px 10px black;
 }
 
-.paragraph {
+.paragraph, .paragraph_left, .bulletpoint_left, .numberedlist_left {
     /* This places the paragraph in the center and makes it white. */
     text-align: center;
     color: white;
 	font-family: "MediumGotham";
-	font-size: 3vmax;
+	font-size: 2.5vmax;
 	font-weight: normal;
 	
 	margin-left: 5%;
 	margin-right: 5%;
+	
+	padding-top: 5px;
+	padding-bottom: 5px;
+	
+	display: block;
+	overflow: auto;
+	text-overflow: scroll;
+	word-wrap: break-word;
 }
 
-.hyperlink {
+.paragraph_left, .bulletpoint_left, .numberedlist_left {
+	padding-top: 10px;
+	display: block;
+	text-align: left;
+}
+
+.numberedlist_left {
+	display: block;
+	padding-left: 5%;
+}
+
+.hyperlink, .hyperlink_blue {
     color: yellow;
 	font-family: "MediumGotham";
-	font-size: 3vmax;
-	font-weight: normal;
+	font-size: 2.5vmax;
+}
+
+.hyperlink_blue {
+	color: blue;
 }
 
 .NAVIGATION_BUTTON {
@@ -73,7 +95,7 @@ header {
   float: left;
   border-bottom: solid 4px white;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 2.5vw;
   width: 33.33%;
   height: 50px;
   line-height: 50px;
@@ -154,7 +176,7 @@ h1 {
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
-	font-size: 3.5vw;
+	font-size: 3vmax;
 	font-family: "CustomGotham";
 	font-weight: bold;
 	color: white;
@@ -202,7 +224,7 @@ iframe {
 	width: 80%;
 	background-color: rgb(17,86,149);
 	box-sizing: border-box;
-	white-space: normal;
+	text-overflow: nowrap;
 	
 	display: block;
 	margin-left: 10%;
@@ -233,7 +255,7 @@ iframe {
 	border-radius: 20px;
 	
 
-	margin-left: 30%;
+	margin-left: 29.5%;
 	margin-bottom: 2.5%;
 	
 	background-color: rgba(25,25,25,0.1);
@@ -361,6 +383,7 @@ iframe {
 	width: auto;
 	height: 90%;
 	margin-top: 5%;
+	border-radius: 0.5cm;
 	
 	display: inline;
 }
@@ -461,7 +484,7 @@ table {
 
 td, th {
   color: black;
-  font-size: 3.5vw;
+  font-size: 2.5vmax;
   font-family: "MediumGotham";
 
   text-align: left;
@@ -470,7 +493,7 @@ td, th {
 
 .table_name {
   color: black;
-  font-size: 5vw;
+  font-size: 3vmax;
   font-family: "CustomGotham";
   
   padding-top: 10px;
