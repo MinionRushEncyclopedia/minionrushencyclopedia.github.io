@@ -241,6 +241,7 @@ iframe {
 .container{
 	height: 100%;
 	width: 92%;
+	text-align: center;
 	display: flex;
 	align-items: stretch;
 	justify-content: space-around;
