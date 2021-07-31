@@ -78,7 +78,7 @@
 					<img src='../locations/Media/IMAGES/GRUS_LAB.png' class='subject_img'> \
 				</span> \
 				<div class='link_description_box'> \
-					<a href='../Table-of-Contents/1.html' class='link_title'> Gru's Lab </a> \
+					<a href='../locations/Gru-Lab.html' class='link_title'> Gru's Lab </a> \
 					<a class='link_description'> Category: Locations </a> \
 					<a class='link_description'> Publish Date: July 30, 2021 </a> \
 				</div> \
