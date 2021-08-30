@@ -3,7 +3,7 @@
 			
 			var HeaderContent =
 			'<span> <img class=hamburger_button id=open_button onclick=openMenu()> </span> \
-			<a href=https://minionrushencyclopedia.github.io/home/> <img class=logo src="../base/Media/LOGOS/LOGO.png"> </a> \
+			<a href=../home/> <img class=logo src="../base/Media/LOGOS/LOGO.png"> </a> \
 			<span><img class="hamburger_button" id="blank_open_button" style="cursor: default; user-drag: none; -webkit-user-drag: none; user-select: none; -moz-user-select: none; -webkit-user-select: none; -ms-user-select: none;"> </span>';
 			
 			header.innerHTML = HeaderContent;
@@ -20,36 +20,37 @@
 		function CreateTabLinks() {
 			TabLinks=document.getElementById('tablinks');
 			TabLinks.innerHTML = 
-			'<a href= "https://minionrushencyclopedia.github.io/home/" class="tablink"> Home </a> \
-			<a href = "https://minionrushencyclopedia.github.io/table-of-contents/" class="tablink"> Table of Contents </a> \
-			<a href = "https://minionrushencyclopedia.github.io/about-us/" class="tablink"> About Us </a>';
+			'<a href= "../home/" class="tablink"> Home </a> \
+			<a href = "../table-of-contents/" class="tablink"> Table of Contents </a> \
+			<a href = "../about-us/" class="tablink"> About Us </a>';
 		}
 		
 		function CreateHamburgerMenu() {
 			Menu=document.getElementById('hamburger_menu');
 			Menu.innerHTML="<div> <img class='exit_button' src='../base/Media/ICONS/EXIT_BUTTON.png' onclick='closeMenu()'> </div> \
-			<a class='hamburger_menu_button' href = 'https://minionrushencyclopedia.github.io/home/'> Home </a> \
-			<a class='hamburger_menu_button' href = 'https://minionrushencyclopedia.github.io/about-us/'> About Us </a> \
-			<a class='hamburger_menu_button' href = 'https://minionrushencyclopedia.github.io/table-of-contents/'> Table of Contents </a> \
-			<a class='hamburger_menu_button' href = 'https://minionrushencyclopedia.github.io/archives/'> Archives </a> \
-			<a class='hamburger_menu_button' href = 'https://minionrushencyclopedia.github.io/resource-hub/'> Resource Hub </a> \
-			<a class='hamburger_menu_button' href = 'https://minionrushencyclopedia.github.io/tutorials/'> Tutorials </a>";
+			<a class='hamburger_menu_button' href = '../home/'> Home </a> \
+			<a class='hamburger_menu_button' href = '../about-us/'> About Us </a> \
+			<a class='hamburger_menu_button' href = '../table-of-contents/'> Table of Contents </a> \
+			<a class='hamburger_menu_button' href = '../archives/'> Archives </a> \
+			<a class='hamburger_menu_button' href = '../resource-hub/'> Resource Hub </a> \
+			<a class='hamburger_menu_button' href = '../tutorials/'> Tutorials </a> \
+			<a class='hamburger_menu_button' href = '../blog/'> Blog </a>";
 		}
 			
 		function CreateFooter() {
 			footer=document.getElementById('footer');
 			footer.innerHTML ="<p>© 2021 Minion Rush Encyclopedia</p> \
-			<p> <a href=https://minionrushencyclopedia.github.io/home/ class='hyperlink' style='font-size: 12px; line-height: 30px;'>Home</a> \
-			<br> <a href=https://minionrushencyclopedia.github.io/table-of-contents/ class='hyperlink' style='font-size: 12px; line-height: 30px;'>Table of Contents</a> \
-			<br> <a href=https://minionrushencyclopedia.github.io/about-us/ class='hyperlink' style='font-size: 12px; line-height: 30px;'>About Us</a> \
-			<br> <a href=https://minionrushencyclopedia.github.io/terms-of-use/ class='hyperlink' style='font-size: 12px; line-height: 30px;'>Terms of Use</a> </p>";
+			<p> <a href=../home/ class='hyperlink' style='font-size: 12px; line-height: 30px;'>Home</a> \
+			<br> <a href=../table-of-contents/ class='hyperlink' style='font-size: 12px; line-height: 30px;'>Table of Contents</a> \
+			<br> <a href=../about-us/ class='hyperlink' style='font-size: 12px; line-height: 30px;'>About Us</a> \
+			<br> <a href=../terms-of-use/ class='hyperlink' style='font-size: 12px; line-height: 30px;'>Terms of Use</a> </p>";
 		}
 		
 		function CreateDailyFact() {
 			const d = new Date();
 			var time = Math.round(d.getTime()/ 1000);
 			
-			if (time > 1627617600 && time < 1627704000) {
+			if (time > 1630167840 && time < 1630187840) {
 			document.getElementById("DailyFact").innerHTML = 
 			"<div class='mediaBox' id='DailyFact' style='background-color: rgb(235,33,46);'> \
 			<div class='page_name' style='margin-top: 10px; margin-bottom: 20px;'> 🍎 Daily Fun Fact! </div> \

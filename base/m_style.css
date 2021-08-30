@@ -100,6 +100,7 @@ header {
   height: 50px;
   line-height: 50px;
   text-decoration: none;
+  margin-bottom: 5%;
 }
 
 .no_js_tablink {
@@ -116,6 +117,7 @@ header {
   height: 50px;
   line-height: 50px;
   text-decoration: none;
+  margin-bottom: 5%;
 }
 
 footer {
@@ -133,8 +135,8 @@ footer {
 }
 
 .logo {
-	padding-top: 2.5%;
-	height:70%;
+	margin-top: 10px;
+	height: 70px;
 	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
@@ -153,7 +155,7 @@ footer {
 	height: auto;
 }
 
-h1 {
+.orange_heading {
 	padding: 10px 10px;
 	text-align: center;
 	font-size: 30px;
@@ -161,26 +163,31 @@ h1 {
 	font-weight: bold;
 	color: rgb(255, 106, 0);
 	/* text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white; */
-	text-shadow: 0px 0px 20px black;
-	margin-top: 70px;
+	text-shadow: 0px 0px 10px black;
+	
+	margin-top: 20px;
 }
 
-.page_name {
-	margin-top: 70px;
+.page_name, .page_name_left {
 	height: 100%;
-	width:90%;
-	border-bottom: solid 4px white;
+	width:95%;
+	border-bottom: solid 6px white;
 	text-shadow: 0px 0px 10px black;
 	box-shadow: 0px 10px 10px -10px black;
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: 0%;
 	text-align: center;
-	font-size: 3vmax;
+	font-size: 5vw;
 	font-family: "CustomGotham";
 	font-weight: bold;
 	color: white;
 	display: block;
+}
+
+.page_name_left {
+	text-align: left;
 }
 
 iframe {
@@ -206,7 +213,7 @@ iframe {
 	font-family: "CustomGotham";
 	color: white;
 	
-	width: 80%;
+	width: 90%;
 	height: 100%;
 	background-color: rgb(255, 106, 0);
 	border: solid 4px white;
@@ -221,19 +228,20 @@ iframe {
 }
 
 .SmallMediaBox {
-	width: 80%;
+	width: 85%;
 	background-color: rgb(17,86,149);
 	box-sizing: border-box;
 	text-overflow: nowrap;
 	
 	display: block;
-	margin-left: 10%;
-	margin-right: 10%;
+	margin-left: 7.5%;
+	margin-right: 7.5%;
 	margin-bottom: 50px;
+	padding: 10px;
 }
 
 .BigMediaBox {
-	width: 88%;
+	width: 90%;
 }
 
 .container{
@@ -241,8 +249,8 @@ iframe {
 	width: 90%;
 	display: inline-block;
 	
-	margin-top: 30px;
-	margin-bottom: 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 	margin-left: 5%;
 	margin-right: 5%;
 }
@@ -255,15 +263,20 @@ iframe {
 	border-radius: 20px;
 	
 
-	margin-left: 29.5%;
+	margin-left: 27.5%;
 	margin-bottom: 2.5%;
 	
-	background-color: rgba(25,25,25,0.1);
+	background-color: rgba(25,25,25,0.25);
 	
 	display: inline;
 	float: bottom;
 	vertical-align: bottom;
 	bottom: 100%;
+}
+
+.article_nav_button {
+	width: 90%;
+	margin: 10px 10px 10px 10px;
 }
 
 .article_title, .doubler_title {
@@ -273,15 +286,15 @@ iframe {
 	width: 100%;
 	font-family: "CustomGotham";
 	font-size: 4vmax;
-	text-shadow: 0px 0px 1vw black;
+	text-shadow: 0px 0px 2vw black;
 	text-align: center;
 	
-	display: inline;
-	float: top;
-	vertical-align:top;
-	top: 100%;
+	position: absolute;
+	display: block;
+	top: 0%;
 	
 	margin-bottom: 2.5%;
+	margin-top: 0%;
 	padding-top: 0.5%;
 	padding-bottom: 0.5%;
 }
@@ -294,6 +307,13 @@ iframe {
 	display: inline-block;
 	float: bottom;
 	
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-radius: 20px;
+	background-color: rgba(25,25,25,0.1);
+	
 	margin-left: 2%;
 	margin-right: 2%;
 }
@@ -303,10 +323,12 @@ iframe {
 	width: 90%;
 	min-height: 100%;
 	
+	padding-top: 10%;
+	position: relative;
 	display: table;
 	border-radius: 20px;
 	
-	margin-top: 100px;
+	margin-top: 20px;
 	margin-bottom: 50px;
 	margin-left: 5%;
 	margin-right: 5%;
@@ -319,8 +341,8 @@ iframe {
 	margin-left: auto;
 	margin-right: auto;
 	
-	width: 64vw;
-	height: 16vw;
+	width: 66vw;
+	height: 16.5vw;
 	border-radius: 20px;
 	border: solid 0.5vw rgba(25,25,25,0.4);
 	background-color: rgba(25,25,25,0.25);
@@ -352,7 +374,7 @@ iframe {
 
 .link_description {
 	text-align: left;
-	color: rgba(25,25,25,0.75);
+	color: rgba(255,255,255,0.5);
 	font-size: 2vw;
 	font-family: "CustomGotham";
 	
@@ -473,20 +495,20 @@ iframe {
 
 table {
   margin-top: 50px;
-  border-radius: 20px;
-  border: solid 4px black;
   border-collapse: separate;
   background-color: white;
-  width: 75%;
+  width: 95%;
+  max-width: 95%;
   margin-left: auto;
   margin-right: auto;  
+  
+  table-layout: fixed;
 }
 
 td, th {
   color: black;
-  font-size: 2.5vmax;
+  font-size: 3vmin;
   font-family: "MediumGotham";
-
   text-align: left;
   padding: 8px;
 }
@@ -496,6 +518,7 @@ td, th {
   font-size: 3vmax;
   font-family: "CustomGotham";
   
+  table-layout: auto;
   padding-top: 10px;
   padding-bottom: 10px;
   text-align: center;
@@ -536,6 +559,7 @@ tr:last-of-type td:last-of-type {
 	background-color: rgba(0, 0, 0, 0.25);
 	display: block;
 	
+	margin-top: 4px;
 	text-align: center;
 	font-size: 25px;
 	word-wrap: break-word;
@@ -550,8 +574,10 @@ tr:last-of-type td:last-of-type {
 }
 
 .doubler_title {
+	margin-top: 5%;
 	width: 100%;
 	text-align: center;
+	position: relative;
 }
 
 .doubler_img {
