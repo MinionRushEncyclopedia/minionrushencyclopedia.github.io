@@ -72,7 +72,7 @@
 			document.getElementById("DailyFact").innerHTML =
 			"<div class='mediaBox' id='DailyFact' style='background-color: rgb(235,33,46);'> \
 			<div class='page_name' style='margin-top: 10px; margin-bottom: 20px;'> 🍎 Daily Fun Fact! </div> \
-			<div class='paragraph'> When Minion Rush was released, there were only two locations in the game. These locations were Gru's Lab and the Residential Area. </div> \
+			<div class='paragraph'> When Minion Rush released, there were only two locations in the game. These locations were Gru's Lab and the Residential Area. </div> \
 			<div class='page_name' style='margin-top: 10%;'> 📄 Today's Featured Article! </div> \
 			<div class='link_box_big'>  \
 				<span class='img_container'> \
