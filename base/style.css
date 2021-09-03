@@ -315,6 +315,7 @@ iframe {
 	
 	margin-left: 2%;
 	margin-right: 2%;
+	margin-bottom: 1%;
 	background-color: rgba(25,25,25,0.1);
 	
 	display: block;
@@ -567,7 +568,8 @@ iframe {
 table {
   margin-top: 25px;
   margin-bottom: 25px;
-  border-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
   border: solid 4px black;
   border-top: solid 0px rgba(0,0,0,0);
   border-top-left-radius: 0px;
