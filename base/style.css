@@ -580,6 +580,7 @@ table {
   background-color: white;
   border-collapse: separate !important;
   width: 45%;
+  max-width: 45%;
   vertical-align: top;
   display: inline-table;
 }
