@@ -585,7 +585,6 @@ td, th {
   color: black;
   font-size: 16px;
   font-family: "MediumGotham";
-  border-radius: ;
   text-align: left;
   padding: 8px;
 }
@@ -607,6 +606,10 @@ td, th {
 
 .column_name {
   text-decoration: underline;
+}
+
+tr {
+  display: table-row;
 }
 
 tr:nth-child(even) {
