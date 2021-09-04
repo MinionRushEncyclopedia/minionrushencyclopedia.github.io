@@ -579,15 +579,13 @@ table {
   width: 45%;
   vertical-align: top;
   display: inline-table;
-  
-  overflow: hidden;
 }
 
 td, th {
   color: black;
   font-size: 16px;
   font-family: "MediumGotham";
-
+  border-radius: ;
   text-align: left;
   padding: 8px;
 }
