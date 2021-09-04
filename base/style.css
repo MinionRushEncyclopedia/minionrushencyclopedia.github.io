@@ -576,8 +576,6 @@ table {
   border-radius: 20px;
   border: solid 4px black;
   border-top: solid 0px rgba(0,0,0,0);
-  border-top-left-radius: 0px;
-  border-top-right-radius: 0px;
   border-collapse: separate;
   width: 45%;
   vertical-align: top;
