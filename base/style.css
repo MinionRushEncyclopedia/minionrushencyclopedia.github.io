@@ -582,6 +582,7 @@ table {
   width: 45%;
   max-width: 45%;
   vertical-align: top;
+  table-layout: fixed;
   display: inline-table;
 }
 
