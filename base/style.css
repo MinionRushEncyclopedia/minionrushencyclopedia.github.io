@@ -613,6 +613,7 @@ td, th {
 
 tr {
   display: table-row;
+  border-radius: 20px;
 }
 
 tr:nth-child(even) {
