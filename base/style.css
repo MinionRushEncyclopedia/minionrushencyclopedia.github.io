@@ -582,11 +582,6 @@ table {
   width: 45%;
   vertical-align: top;
   display: inline-table;
-  
--webkit-backface-visibility: hidden;
--moz-backface-visibility: hidden;
--webkit-transform: translate3d(0, 0, 0);
--moz-transform: translate3d(0, 0, 0)
 }
 
 td, th {
@@ -627,9 +622,11 @@ tr:nth-child(even) {
 
 tr:last-of-type td:first-of-type {
   border-bottom-left-radius: 20px;
+  -webkit-border-bottom-left-radius: 20px;
 }
 tr:last-of-type td:last-of-type {
   border-bottom-right-radius: 20px;
+  -webkit-border-bottom-right-radius: 20px;
 }
 
 
