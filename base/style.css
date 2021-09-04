@@ -573,10 +573,10 @@ table {
   margin-top: 25px;
   margin-bottom: 25px;
   border-radius: 20px;
-  border: solid 4px black;
-  border-top: solid 0px rgba(0,0,0,0);
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
+  border: solid 4px black;
+  border-top: solid 0px white;
   background-color: white;
   border-collapse: separate !important;
   width: 45%;
