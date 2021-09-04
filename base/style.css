@@ -597,7 +597,6 @@ td, th {
   font-size: 28px;
   font-family: "CustomGotham";
   
-  border: solid 4px black;
   border-bottom: solid 0px rgba(0,0,0,0);
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
