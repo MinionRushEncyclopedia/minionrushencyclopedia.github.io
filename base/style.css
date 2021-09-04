@@ -570,6 +570,7 @@ iframe {
 /* Table Classes */
 
 table {
+  background-color: white;
   margin-top: 25px;
   margin-bottom: 25px;
   border-radius: 20px;
@@ -578,7 +579,6 @@ table {
   border-top-left-radius: 0px;
   border-top-right-radius: 0px;
   border-collapse: separate;
-  background-color: white;
   width: 45%;
   vertical-align: top;
   display: inline-table;
