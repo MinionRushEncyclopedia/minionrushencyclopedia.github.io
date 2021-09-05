@@ -22,7 +22,9 @@
 			TabLinks.innerHTML = 
 			'<a href= "../home/" class="tablink"> Home </a> \
 			<a href = "../table-of-contents/" class="tablink"> Table of Contents </a> \
-			<a href = "../about-us/" class="tablink"> About Us </a>';
+			<a href = "../about-us/" class="tablink"> About Us </a> \
+			<a href = "../resource-hub/" class="tablink"> Resources </a> \
+			<a href = "../blog/" class="tablink"> Blog </a>';
 		}
 		
 		function CreateHamburgerMenu() {
