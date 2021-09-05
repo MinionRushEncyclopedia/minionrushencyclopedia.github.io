@@ -334,6 +334,7 @@ iframe {
 	display: table;
 	
 	font-family: "CustomGotham";
+	font-size: 32px;
 	text-align: center;
 	color: white;
 	padding-bottom: 20px;
@@ -677,4 +678,17 @@ tr:last-of-type td:last-of-type {
 	width: 40%;
 	height: auto;
 	border-radius: 40px;
+}
+
+.loading {
+  border: 16px solid rgb(255, 106, 0);
+  border-radius: 50%;
+  border-top: 16px solid #3498db;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 0.75s linear infinite; /* Safari */
+  animation: spin 0.75s linear infinite;
+  
+  margin-top: 10%;
+  margin-bottom: 50%;
 }
