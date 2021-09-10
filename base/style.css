@@ -254,6 +254,13 @@ iframe {
 	outline: none;
 }
 
+.long_iframe {
+	display: inline-block;
+	border-radius: 0cm;
+	width: 38%;
+	height: 350px;
+}
+
 .mediaBox, .SmallMediaBox, .BigMediaBox, .tinyMediaBox {
 	padding-top: 10px;
 	padding-bottom: 15px;
@@ -322,6 +329,9 @@ iframe {
 	margin-right: 2%;
 	margin-bottom: 1%;
 	background-color: rgba(25,25,25,0.1);
+	outline: none;
+	border: 0;
+	cursor: pointer;
 	
 	display: block;
 	float: left;

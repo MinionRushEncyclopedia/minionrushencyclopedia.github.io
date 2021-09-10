@@ -12,10 +12,6 @@
 		
 		<link rel="stylesheet" href="../base/style.css">
 		<link rel="stylesheet" media='screen and (min-width: 0px) and (max-width: 720px)' href="../base/m_style.css"/>
-		
-		
-		<!--	REMOVE THESE TAGS WHEN TESTING LOCALLY!!!	<link rel="stylesheet" href="https://minionrushencyclopedia.github.io/home/style.css"> --> 
-		<!--	REMOVE THESE TAGS WHEN TESTING LOCALLY!!!	<link rel="stylesheet" media='screen and (min-width: 0px) and (max-width: 720px)' href="https://minionrushencyclopedia.github.io/home/m_style.css"/> --> 
     </head>
 
     <body>
@@ -79,11 +75,13 @@
 			</div>
 		</div>
 		
-		<div class='article_container'>
-		<h2 class='page_name_left'>Before the 5YCU</h2>
-			<p class='paragraph_left'>Before the 5 Year Celebration Update, this costume could be acquired for 550 tokens during certain periods of time.</p>
-		<h2 class='page_name_left'>During the 5YCU</h2>
-			<p class='paragraph_left'>After the 5 Year Celebration Update, this costume could be acquired for 60 Baker Costume Cards and 10 Banana Coins.</p>
+		<div id='article_extended'>
+		<div id='article_extended' class='article_container'>
+			<h2 class='page_name_left'>Before the 5YCU</h2>
+				<p class='paragraph_left'>Before the 5 Year Celebration Update, this costume could be acquired for 550 tokens during certain periods of time.</p>
+			<h2 class='page_name_left'>During the 5YCU</h2>
+				<p class='paragraph_left'>After the 5 Year Celebration Update, this costume could be acquired for 60 Baker Costume Cards and 10 Banana Coins.</p>
+		</div>
 		</div>
 		
 		<div id='Media'>
@@ -91,13 +89,13 @@
 			<img src="../base/Media/ICONS/MEDIA4.png" class="image_emoticon"> Media
 			
 			<div class='paragraph'></div>
-					<div id='pic1' class='article_img_container' onmouseover='showImageDescription("Transparent PNG of the Baker Costume (Provided by Jayden Tries)")' onmouseleave='removeImageDescription()'>
+					<div id='pic1' class='article_img_container' onclick="location.href='../costumes/Media/IMAGES/Baker/Baker.png';" onmouseover='showImageDescription("Transparent PNG of the Baker Costume (Provided by Jayden Tries)")' onmouseleave='removeImageDescription()'>
 						<img src="../costumes/Media/IMAGES/Baker/Baker.png" class='subject_img'>
 					</div>			
 
-					<div id='pic2' class='article_img_container' onmouseover='showImageDescription("Screenshot of the Baker Costume as of version 8.0.1.")' onmouseleave='removeImageDescription()'>
+					<button id='pic2' class='article_img_container' onclick="location.href='../costumes/Media/IMAGES/Baker/Baker1.jpg';" onmouseover='showImageDescription("Screenshot of the Baker Costume as of version 8.0.1.")' onmouseleave='removeImageDescription()'>
 						<img src="../costumes/Media/IMAGES/Baker/Baker1.jpg" class='subject_img'>
-					</div>
+					</button>
 			</div>
 		</div>
 		
@@ -191,6 +189,8 @@
 				<a href='https://minionrushencyclopedia.github.io/terms-of-use/' class='hyperlink' style='font-size: 12px; line-height: 30px;'>For more information, please visit our terms and conditions..</a>
 			</noscript>
 		</footer>
+		<!--								-->
+		
 	</body>
 </html>
 
