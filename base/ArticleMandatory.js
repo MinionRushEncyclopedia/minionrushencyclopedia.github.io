@@ -12,7 +12,7 @@ var links = document.getElementById('Links').innerHTML;
 page.innerHTML = "<div class='loading'> </div>";
 
 
-var DiscordWidget = '<iframe id="discordWidget" class="long_iframe" src="https://discord.com/widget?id=755050417485906000&theme=dark" style="margin-bottom: 25px;" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">h</iframe>';
+var DiscordWidget = '<iframe id="discordWidget" class="long_iframe" src="https://discord.com/widget?id=755050417485906000&theme=dark" style="margin-bottom: 0px;" allowtransparency="true" frameborder="0" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts">h</iframe>';
 
 media = media.replace('BigMediaBox', 'BigMediaBox');
 page.innerHTML = article + article_nav + article_extended + DiscordWidget + charts + media + triviaLinks;
