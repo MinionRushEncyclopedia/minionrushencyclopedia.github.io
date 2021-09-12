@@ -100,7 +100,12 @@ header {
   height: 50px;
   line-height: 50px;
   text-decoration: none;
-  margin-bottom: 12%;
+  margin-bottom: 15%;
+}
+
+.tablink:hover {
+	font-size: 2.4vw;
+	background-color: rgb(0, 159, 255);
 }
 
 .no_js_tablink {
@@ -301,7 +306,7 @@ iframe {
 	
 	position: absolute;
 	display: block;
-	top: 4%;
+	top: 2%;
 	
 	margin-bottom: 2.5%;
 	margin-top: 0%;
@@ -337,8 +342,8 @@ iframe {
 	display: block;
 	border-radius: 20px;
 	
-	margin-top: 50px;
-	margin-bottom: 50px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 	margin-left: 5%;
 	margin-right: 5%;
 }
